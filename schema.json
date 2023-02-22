@@ -1,0 +1,207 @@
+{
+    "nodes": [
+        {
+            "node": "Diseases",
+            "example": [
+                "Babesiosis",
+                "Malaria"
+            ],
+            "display": [
+                {
+                    "label": "Diseases ID",
+                    "text": "${id}",
+                    "type": "text"
+                },
+                {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                }
+            ],
+            "relation": [],
+            "search": [
+                "id",
+                "label"
+            ]
+        },
+        {
+            "node": "Gene",
+            "example": [
+                "COPB2",
+                "ABCG2"
+            ],
+            "display": [
+                {
+                    "label": "Gene ID",
+                    "text": "${id}",
+                    "type": "text"
+                },
+                {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                },
+                {
+                    "label": "uri",
+                    "text": "${uri}",
+                    "href": "${uri}",
+                    "type": "link"
+                }
+            ],
+            "relation": [],
+            "search": [
+                "id",
+                "label"
+            ]
+        },
+        {
+            "node": "PRINCIPAL INVESTIGATOR",
+            "example": [
+                "MU A",
+                "KJERSTI MARIE AAGAARD"
+            ],
+            "display": [
+                {
+                    "label": "PRINCIPAL INVESTIGATOR ID",
+                    "text": "${id}",
+                    "type": "text"
+                },
+                {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                },
+                {
+                    "label": "organization",
+                    "text": "${organization}",
+                    "type": "text"
+                }
+            ],
+            "relation": [],
+            "search": [
+                "id",
+                "label"
+            ]
+        }
+    ],
+    "edges": [
+        {
+            "match": [
+                "PI Gene"
+            ],
+            "selected": true,
+            "display": [
+                {
+                    "label": "source",
+                    "text": "${source}",
+                    "type": "text"
+                },
+                {
+                    "label": "relation",
+                    "text": "${relation}",
+                    "type": "text"
+                },
+                {
+                    "label": "target",
+                    "text": "${target}",
+                    "type": "text"
+                },
+                {
+                    "label": "source label",
+                    "text": "${source_label}",
+                    "type": "text"
+                },
+                {
+                    "label": "target label",
+                    "text": "${target_label}",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "match": [
+                "PI DISEASES"
+            ],
+            "selected": true,
+            "display": [
+                {
+                    "label": "source",
+                    "text": "${source}",
+                    "type": "text"
+                },
+                {
+                    "label": "relation",
+                    "text": "${relation}",
+                    "type": "text"
+                },
+                {
+                    "label": "target",
+                    "text": "${target}",
+                    "type": "text"
+                },
+                {
+                    "label": "source label",
+                    "text": "${source_label}",
+                    "type": "text"
+                },
+                {
+                    "label": "target label",
+                    "text": "${target_label}",
+                    "type": "text"
+                },
+                {
+                    "label": "jaccard similarity",
+                    "text": "${jaccard_similarity}",
+                    "type": "text"
+                }
+            ]
+        }
+    ],
+    "header": {
+        "title": "NIDDK Researcher KG",
+        "icon": {
+            "src": "https://minio.dev.maayanlab.cloud/enrichr-kg/enrichr-kg.png",
+            "favicon": "https://minio.dev.maayanlab.cloud/enrichr-kg/enrichr-kg.png",
+            "alt": "Enrichr logo",
+            "key": "enrichr_logo",
+            "width": 100,
+            "height": 60
+        },
+        "tabs": [
+            {
+                "endpoint": "/",
+                "label": "Term & Gene Search",
+                "type": "page",
+                "component": "KnowledgeGraph",
+                "props": {
+                    "init_function": "initialize_kg"
+                }
+            }
+        ]
+    },
+    "footer": [
+        {
+            "type": "github",
+            "code": "https://github.com/MaayanLab/enrichr-kg",
+            "issues": "https://github.com/MaayanLab/enrichr-kg/issues"
+        },
+        {
+            "type": "icon",
+            "key": "lab_icon",
+            "src": "https://minio.dev.maayanlab.cloud/enrichr-kg/maayan-lab.jpg",
+            "alt": "MaayanLab",
+            "href": "https://labs.icahn.mssm.edu/maayanlab/",
+            "height": 125,
+            "width": 150
+        },
+        {
+            "type": "icon",
+            "key": "center_icon",
+            "src": "https://minio.dev.maayanlab.cloud/enrichr-kg/ISMMS_Center_Bioinformatics_RGB_Vrtl.jpg",
+            "alt": "COB",
+            "href": "https://icahn.mssm.edu/research/bioinformatics",
+            "height": 125,
+            "width": 200
+        }
+    ]
+}
