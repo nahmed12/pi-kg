@@ -158,15 +158,7 @@
         }
     ],
     "header": {
-        "title": "Enrichr Knowledge Graph",
-        "icon": {
-            "src": "https://minio.dev.maayanlab.cloud/enrichr-kg/enrichr-kg.png",
-            "favicon": "https://minio.dev.maayanlab.cloud/enrichr-kg/enrichr-kg.png",
-            "alt": "Enrichr logo",
-            "key": "enrichr_logo",
-            "width": 100,
-            "height": 60
-        },
+        "title": "NIDDK RESEARCHER KG",
         "tabs": [
             {
                 "endpoint": "/",
