@@ -160,12 +160,12 @@
     "header": {
         "title": "NIDDK RESEARCHER KG",
         "icon": {
-                "src": "https://minio.dev.maayanlab.cloud/enrichr-kg/enrichr-kg.png",
-                "favicon": "https://minio.dev.maayanlab.cloud/enrichr-kg/enrichr-kg.png",
-                "alt": "Enrichr logo",
-                "key": "enrichr_logo",
-                "width": 100,
-                "height": 60
+            "src": "https://minio.dev.maayanlab.cloud/enrichr-kg/enrichr-kg.png",
+            "favicon": "https://minio.dev.maayanlab.cloud/enrichr-kg/enrichr-kg.png",
+            "alt": "Enrichr logo",
+            "key": "enrichr_logo",
+            "width": 100,
+            "height": 60
         },
         "tabs": [
             {
