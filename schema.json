@@ -30,6 +30,11 @@
                 "COPB2",
                 "ABCG2"
             ],
+            "palette": {
+				"name": "blues",
+				"main": "#81aed5",
+				"contrastText": "#000"
+			},
             "display": [
                 {
                     "label": "Gene ID",
