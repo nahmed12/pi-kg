@@ -82,16 +82,6 @@
                     "type": "text"
                 },
                 {
-                    "label": "First_publication_year",
-                    "text": "${First_publication_year}",
-                    "type": "text"
-                },
-                {
-                    "label": "Rank",
-                    "text": "${Rank}",
-                    "type": "text"
-                },
-                {
                     "label": "Total_citations",
                     "text": "${Total_citations}",
                     "type": "text"
@@ -99,21 +89,6 @@
                 {
                     "label": "h-index",
                     "text": "${h-index}",
-                    "type": "text"
-                },
-                {
-                    "label": "hm-index",
-                    "text": "${hm-index}",
-                    "type": "text"
-                },
-                {
-                    "label": "Composite_score",
-                    "text": "${Composite_score}",
-                    "type": "text"
-                },
-                {
-                    "label": "Top_subfield",
-                    "text": "${Top_subfield}",
                     "type": "text"
                 }
             ],
