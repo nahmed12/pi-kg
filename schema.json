@@ -75,21 +75,6 @@
                     "label": "organization",
                     "text": "${organization}",
                     "type": "text"
-                },
-                {
-                    "label": "Number_of_Papers_Published",
-                    "text": "${Number_of_Papers_Published}",
-                    "type": "text"
-                },
-                {
-                    "label": "Total_citations",
-                    "text": "${Total_citations}",
-                    "type": "text"
-                },
-                {
-                    "label": "h-index",
-                    "text": "${h-index}",
-                    "type": "text"
                 }
             ],
             "relation": [],
