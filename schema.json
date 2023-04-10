@@ -105,6 +105,16 @@
                     "label": "h_index",
                     "text": "${h_index}",
                     "type": "text"
+                },
+                {
+                    "label": "Composite_score",
+                    "text": "${Composite_score}",
+                    "type": "text"
+                },
+                {
+                    "label": "hm_index",
+                    "text": "${hm_index}",
+                    "type": "text"
                 }
             ],
             "relation": [],
