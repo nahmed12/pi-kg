@@ -100,6 +100,11 @@
                     "label": "Top_subfield",
                     "text": "${Top_subfield}",
                     "type": "text"
+                },
+                {
+                    "label": "Composite_score",
+                    "text": "${Composite_score}",
+                    "type": "text"
                 }
             ],
             "relation": [],
