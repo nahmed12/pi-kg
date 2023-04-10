@@ -95,6 +95,11 @@
                     "label": "Total_citations",
                     "text": "${Total_citations}",
                     "type": "text"
+                },
+                {
+                    "label": "Top_subfield",
+                    "text": "${Top_subfield}",
+                    "type": "text"
                 }
             ],
             "relation": [],
