@@ -85,6 +85,21 @@
                     "label": "First_publication_year",
                     "text": "${First_publication_year}",
                     "type": "text"
+                },
+                {
+                    "label": "Rank",
+                    "text": "${Rank}",
+                    "type": "text"
+                },
+                {
+                    "label": "Total_citations",
+                    "text": "${Total_citations}",
+                    "type": "text"
+                },
+                {
+                    "label": "h-index",
+                    "text": "${h-index}",
+                    "type": "text"
                 }
             ],
             "relation": [],
