@@ -102,8 +102,8 @@
                     "type": "text"
                 },
                 {
-                    "label": "Composite_score",
-                    "text": "${Composite_score}",
+                    "label": "h-index",
+                    "text": "${h-index}",
                     "type": "text"
                 }
             ],
