@@ -3,7 +3,7 @@
         {
             "node": "Diseases",
             "example": [
-                "Babesiosis",
+                "diabetes mellitus",
                 "Malaria"
             ],
             "display": [
