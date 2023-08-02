@@ -202,6 +202,7 @@
         "icon": {
             "src": "https://minio.dev.maayanlab.cloud/enrichr-kg/enrichr-kg.png",
             "favicon": "https://minio.dev.maayanlab.cloud/enrichr-kg/enrichr-kg.png",
+            "faviconTitle": "NIDDK-KG",
             "alt": "Enrichr logo",
             "key": "enrichr_logo",
             "width": 100,
