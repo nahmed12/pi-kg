@@ -200,8 +200,8 @@
     "header": {
         "title": "NIDDK RESEARCHER KG",
         "icon": {
-            "src": "https://github.com/MaayanLab/Reprotox-KG/raw/main/Reprotox.png",
-            "favicon": "https://github.com/MaayanLab/Reprotox-KG/raw/main/Reprotox.png",
+            "src": "https://minio.dev.maayanlab.cloud/enrichr-kg/enrichr-kg.png",
+            "favicon": "https://minio.dev.maayanlab.cloud/enrichr-kg/enrichr-kg.png",
             "faviconTitle": "NIDDK-KG",
             "alt": "Enrichr logo",
             "key": "enrichr_logo",
