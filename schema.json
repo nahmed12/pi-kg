@@ -3,7 +3,6 @@
         {
             "node": "Diseases",
             "example": [
-                "Diabetes mellitus",
                 "Malaria"
             ],
             "display": [
